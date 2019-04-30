@@ -1,0 +1,32 @@
+body{
+  position :relative;
+}
+.menu{
+  position: relative;
+  display:flex;
+  justify-content:space-evenly ;
+  list-style-type: none; 
+  text-decoration: none;
+ 
+}
+.menu:hover {
+  color :red;
+}
+.submenu>ul{
+display:none;
+}
+.submenu:hover ul {
+  position: absolute;
+  display: block;
+
+}
+
+  
+.submenu ul li {
+  list-style-type: none;
+   left:20px;
+  /* border: 1px solid  red;*/
+   text-decoration: none;
+   background-color: greenyellow;
+  
+}
